@@ -1,13 +1,13 @@
 import React,{Component} from 'react'
 
-
+import Home from './Home'
+import '../style.css'
 
 export default class App extends Component {
     render(){
         return (
         <div id = "app-container">
-            <h1>Mi Aplicacion</h1>
-            <p>bienvenido a mi aplicación.</p>
+            <Home />
         </div>
         )
     }
