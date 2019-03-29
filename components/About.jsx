@@ -4,6 +4,9 @@ export default class About extends Component {
 //    constructor(props){
 //        super(props)
 //    }
+    componentDidMount(){
+        document.body.style.backgroundColor = "goldenrod"
+    }
     render(){
         return(
             <div>

@@ -1,9 +1,9 @@
 import React,{Component} from 'react'
 
 export default class Contact extends Component {
-//    constructor(props){
-//        super(props)
-//    }
+    componentDidMount(){
+        document.body.style.backgroundColor = "papayawhip"
+    }
     render(){
         return(
             <div>
